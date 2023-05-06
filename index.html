@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The gamer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="landing-page">
+      <header>
+      <div class="nav__container">
+        <nav>
+          <li class="title">Mini-Boss</li>
+          <ul>
+            <div class="nav__links">
+              <li class="nav__link"><a href="#About"></a>About</li>
+              <li class="nav__link"><a href="#Game"></a>Games</li>
+              <li class="nav__link"><a href="#Shops"></a>Shops</li>
+              <li class="nav__link"><a href="#Event"></a>Event</li>
+              <li class="nav__link"><a href="#Contact"></a>Contact</li>
+            </div>
+          </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+       </button>
+       <div class="menu__backdrop">
+        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="menu__links">
+            <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Games</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Shops</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Event</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Contact</a>
+            </li>
+        </ul>
+    </div>
+        </nav>
+      </div>
+      </header>
+      <div class="container">
+        <h1 class="header">ADDING FUN TO YOUR LIFE</h1>
+        <p class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+          impedit quo. Officia nisi corrupti iste asperiores accusamus quisquam
+          quod perspiciatis vitae? Esse eum molestiae ab quasi omnis quidem
+          officia eaque.
+        </p>
+        <h2 class="sub__header">Follow us on social media</h2>
+        <div class="social__link">
+          <a href="https://facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://snapchat.com" target="_blank">
+            <i class="fa-brands fa-snapchat"></i>
+          </a>
+          <a href="https://pinterest.com" target="_blank">
+            <i class="fa-brands fa-pinterest-p"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="page">
+      <h1 class="section__title">LIST OF GAMES</h1>
+      <div class="games">
+        <div class="game">
+          <img class="img" src="./assets/playstation-brands.svg" alt="" />
+          <h3 class="game__name">Playstation</h3>
+        </div>
+        <div class="game">
+          <img class="img" src="./assets/pacman.svg" alt="" />
+          <h3 class="game__name">Pacman</h3>
+        </div>
+        <div class="game">
+          <img class="img" src="./assets/spider.svg" alt="" />
+          <h3 class="game__name">Spider</h3>
+        </div>
+        <div class="game">
+          <img class="img" src="./assets/monster.svg" alt="" />
+          <h3 class="game__name">Monster</h3>
+        </div>
+        <div class="game">
+          <img class="img" src="./assets/joker.svg" alt="" />
+          <h3 class="game__name">Joker</h3>
+        </div>
+        <div class="game">
+          <img class="img" src="./assets/halloween.svg" alt="" />
+          <h3 class="game__name">Halloween</h3>
+        </div>
+      </div>
+      <h1 class="section__title">OUR STORE</h1>
+      <div class="games">
+        <div class="store">
+          <img class="img2" src="./assets/key.jpg" alt="" />
+          <div class="description">
+            <h3 class="name">Keyboard</h3>
+            <p class="item">12 items</p>
+            <p class="item2">$9</p>
+          </div>
+        </div>
+        <div class="store">
+          <img class="img2" src="./assets/server.jpg" alt="" />
+          <div class="description">
+            <h3 class="name">Server</h3>
+            <p class="item">15 items</p>
+            <p class="item2">$50</p>
+          </div>
+        </div>
+        <div class="store">
+          <img class="img2" src="./assets/mouse.jpg" alt="" />
+          <div class="description">
+            <h3 class="name">Mouse</h3>
+            <p class="item">25 items</p>
+            <p class="item2">$8</p>
+          </div>
+        </div>
+        <div class="store">
+          <img class="img2" src="./assets/headphone.jpg" alt="" />
+          <div class="description">
+            <h3 class="name">Headphone</h3>
+            <p class="item">40 items</p>
+            <p class="item2">$18</p>
+          </div>
+        </div>
+        <div class="store">
+          <img class="img2" src="./assets/monitor.jpg" alt="" />
+          <div class="description">
+            <h3 class="name">Monitor</h3>
+            <p class="item">10 items</p>
+            <p class="item2">$20</p>
+          </div>
+        </div>
+        <div class="store">
+          <img class="img2" src="./assets/joystick.jpg" alt="" />
+          <div class="description">
+            <h3 class="name">Joystick</h3>
+            <p class="item">10 items</p>
+            <p class="item2">$20</p>
+          </div>
+        </div>
+      </div>
+      <h1 class="section__title">UPCOMING EVENTS</h1>
+      <div class="events__container">
+        <div class="new">
+          <div class="head">
+            <h4 class="event__header">
+              Spiderman Challenge | Sunday <br />
+              February 6
+            </h4>
+          </div>
+          <p class="event__para">
+            A WORLD LIGHT-YEARS <br />
+            BEYOND YOUR <br />
+            IMAGINATION.
+          </p>
+          <p class="para3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            earum omnis qui nobis a veritatis deserunt aspernatur vero corporis
+            ipsa architecto, sapiente odit mollitia distinctio ut reprehenderit
+            esse ad libero!
+          </p>
+          <p class="event__para3">Save your place</p>
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" />
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email" />
+            <button class="btn1">Register</button>
+          </form>
+        </div>
+        <div class="img3">
+          <img class="event__img" src="./assets/spiderman.png" alt="" />
+        </div>
+      </div>
+      <h1 class="section__title">REACH OUT TO US</h1>
+      <footer>
+        <div class="footer__container">
+          <div class="sec">
+          <p class="event__para3">Address</p>
+          <p class="para2">
+            Akersgata 12, Oslo, Norway Bogstadveien 34, Oslo, Norway Karl Johans
+            gate 1, Oslo, Norway
+          </p>
+          </div>
+          <div class="sec">
+          <p class="event__para3">Recieve weekly updated email</p>
+          <input class="footer__input" type="email" placeholder="Email">
+          <button class="btn">Subscribed</button>
+          </div>
+          <div class="sec">
+          <p class="event__para3">Phone</p>
+          <p class="para2">763-957-6781 <br>
+            706-734-2591</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+  <script src="./index.js"></script>
+</html>
